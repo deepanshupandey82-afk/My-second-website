@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Upgraded Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-logo">MyWebsite</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-container">
+            <h1 id="heading">Hello World!</h1>
+            <p>This is my first advanced website built using HTML, CSS, and JavaScript in VS Code.</p>
+            <button id="colorBtn">Change Color</button>
+        </div>
+    </header>
+
+    <!-- 3. Features Section (Grid & Images) -->
+    <section id="features" class="features-section">
+        <h2>Our Core Features</h2>
+        <div class="features-grid">
+            <!-- Feature Card 1 -->
+            <div class="feature-card">
+                <div class="image-placeholder">
+                    <!-- Replace 'feature1.jpg' with your local image name later -->
+                    <img src="feature1.jpg" alt="Clean Code Visual" onerror="this.src='https://placeholder.com'">
+                </div>
+                <h3>Clean Code</h3>
+                <p>Built with organized HTML5 structure, modular CSS3 layouts, and vanilla JavaScript.</p>
+            </div>
+            <!-- Feature Card 2 -->
+            <div class="feature-card">
+                <div class="image-placeholder">
+                    <!-- Replace 'feature2.jpg' with your local image name later -->
+                    <img src="feature2.jpg" alt="Responsive Design Visual" onerror="this.src='https://placeholder.com'">
+                </div>
+                <h3>Responsive Design</h3>
+                <p>Perfectly optimized for mobile screens, tablets, desktops, and wide monitors.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Interactive Footer -->
+    <footer class="site-footer">
+        <p>&copy; <span id="currentYear"></span> MyWebsite. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
